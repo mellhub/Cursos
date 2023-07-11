@@ -1,0 +1,29 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Caneta BIC Preta",
+            "price": 5.89
+        },
+        {
+            "id": 2,
+            "name": "Iphone 14 pro max",
+            "price": 8699.00
+        },
+        {
+            "id": 3,
+            "name": "Ipad Pro M2",
+            "price": 10799.00
+        },
+        {
+            "id": 4,
+            "name": "Garrafa de urso",
+            "price": 19.99
+        },
+        {
+            "id": 5,
+            "name": "Televisão preta",
+            "price": 15799.00
+        }
+    ]
+}
