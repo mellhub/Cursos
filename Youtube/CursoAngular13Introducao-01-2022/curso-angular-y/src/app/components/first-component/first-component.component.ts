@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class FirstComponentComponent implements OnInit{
   name: string = 'Maria';
   age: number = 11;
-  job = 'programador';
-  hobbies = ['Correr',  'brincar',  'jogar'];
+  job = 'Programador';
+  hobbies = ['Correr',  'Brincar',  'Jogar Futebol'];
   car = {
     name: "playu",
     year: 2005
