@@ -1,4 +1,9 @@
-h2 {
-    color:rgb(251, 58, 5);
+.title {
+    background:rgb(0, 0, 0);
+    color: aqua;
+    padding: 15px;
 }
 
+p {
+    padding: 5px;
+}
