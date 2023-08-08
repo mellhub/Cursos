@@ -15,7 +15,6 @@ export class DirectivesComponent implements OnInit {
   constructor() {  }
 
   ngOnInit(): void {
-    
   }
 
 }
