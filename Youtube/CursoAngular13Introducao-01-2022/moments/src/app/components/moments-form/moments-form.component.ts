@@ -1,5 +1,5 @@
-import { FormGroup } from '@angular/forms';
-import { Moment } from './../../Moment';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { Moment } from '../../Moment';
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
@@ -10,13 +10,32 @@ import { Component, Input, OnInit } from '@angular/core';
 export class MomentsFormComponent implements OnInit {
   @Input() btnText!: string
 
-  momentForm!: FormGroup;
+  momentsForm!: FormGroup;
 
   constructor() { }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.momentsForm = new FormGroup({
+      id: new FormControl(''),
+      title: new FormControl('', [Validators.required]),
+      description: new FormControl('', [Validators.required]),
+      image: new FormControl('')
+    });
+  }
+
+  get title() {
+    return this.momentsForm.get('title')!;
+  }
+
+  get description() {
+    return this.momentsForm.get('description')!;
+  }
 
   submit() {
+    if(this.momentsForm.invalid) {
+      return;
+    }
+
     console.log('Enviou formulário')
   }
 }
