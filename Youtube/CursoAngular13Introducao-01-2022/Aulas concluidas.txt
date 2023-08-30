@@ -24,8 +24,8 @@ Aula 23 OK
 Aula 24 OK
 Aula 25 OK
 Aula 26 OK
-Aula 27
-Aula 28
+Aula 27 OK
+Aula 28 OK
 Aula 29
 Aula 30
 Aula 31
