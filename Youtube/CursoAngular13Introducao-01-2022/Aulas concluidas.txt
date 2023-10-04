@@ -26,17 +26,17 @@ Aula 25 OK
 Aula 26 OK
 Aula 27 OK
 Aula 28 OK
-Aula 29
-Aula 30
-Aula 31
-Aula 32
-Aula 33
-Aula 34
-Aula 35
-Aula 36
-Aula 37
-Aula 38
-Aula 39
-Aula 40
-Aula 41
-Aula 42
+Aula 29 OK
+Aula 30 OK
+Aula 31 OK
+Aula 32 OK
+Aula 33 OK
+Aula 34 OK
+Aula 35 OK
+Aula 36 OK
+Aula 37 OK
+Aula 38 OK
+Aula 39 OK
+Aula 40 OK
+Aula 41 OK
+Aula 42 OK
