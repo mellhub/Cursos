@@ -2,7 +2,7 @@ Aula 01 OK
 Aula 02 OK
 Aula 03 OK
 Aula 04 OK
-Aula 05 
+Aula 05 OK
 Aula 06 
 Aula 07 
 Aula 08 
