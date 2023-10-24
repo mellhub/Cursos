@@ -6,7 +6,7 @@
 
         <script>
 
-			var nota=96;
+			var nota=101;
 			var res;
 			//Aprovado com louvor  >=95
 			//Aprovado      	   >=60  
@@ -17,9 +17,13 @@
             if(nota >= 60){
                 res="Passou"
 			    if(nota>=95){
-				    res+=" por ser o melhor aluno(representante certeza)";
-			    }else if(nota >= 60){
-				    res+=" por ser aluno dedicado";
+                    if(nota>=100){
+				        res+=" por ser o melhor aluno(representante certeza)";
+                    }else{
+                        res+=" parabens não é tão ruim";
+                    }
+                }else{
+			        res+=" por ser aluno dedicado";
 			    }
             }else if(nota >= 40){
 			    res="Tá de recuperação por burrice";
