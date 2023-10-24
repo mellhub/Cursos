@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>CFB Cursos - Javascript</title>
+        <meta charset="UTF-8">
+
+        <script>
+
+			var nota=96;
+			var res;
+			//Aprovado com louvor  >=95
+			//Aprovado      	   >=60  
+			//Recuperação   	   >=40 && <60
+			//Reprovado    		   <40
+			//Reprovado sem lovour <20 	
+			
+            if(nota >= 60){
+                res="Passou"
+			    if(nota>=95){
+				    res+=" por ser o melhor aluno(representante certeza)";
+			    }else if(nota >= 60){
+				    res+=" por ser aluno dedicado";
+			    }
+            }else if(nota >= 40){
+			    res="Tá de recuperação por burrice";
+			}else{ 
+                res="Reprovou"
+                if(nota >=20){
+				    res+=" por ser aluno que não presta atenção";
+			    }else{
+				    res+=" por ser o pior aluno";
+			    }
+            }
+
+			document.write(res);
+
+
+        </script>
+
+    </head>
+    <body>
+    
+	
+    </body>
+</html>
