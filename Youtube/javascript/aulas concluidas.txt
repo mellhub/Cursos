@@ -11,8 +11,8 @@ Aula 10 OK
 Aula 11 OK
 Aula 12 OK
 Aula 13 OK
-Aula 14 
-Aula 15 
+Aula 14 OK
+Aula 15 OK
 Aula 16 
 Aula 17 
 Aula 18 

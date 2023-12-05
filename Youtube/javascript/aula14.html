@@ -9,7 +9,7 @@
         <script>
 		
         //var cor=new Array();
-        var mochila=[];
+        var mochila=[]; 
 
         mochila.push("Faca");
         mochila.push("Corda");
@@ -17,6 +17,9 @@
         mochila.push("Chave");
         mochila.push("Lanterna");
         mochila.unshift("Pedra");
+
+        mochila.splice(1,1);
+        mochila.splice(2,1);
 
         document.write(mochila[0]+"<br>");
         document.write(mochila[1]+"<br>");
@@ -32,4 +35,4 @@
 
  
     </body>
-</html>
+</html> 
