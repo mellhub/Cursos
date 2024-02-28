@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>CFB Cursos - Javascript</title>
+        <meta charset="UTF-8"/>
+
+        <script>
+
+            var dt = new Date();
+
+            var ndt = new Date();
+
+            var diasem = dt.getDay();
+            var dia = dt.getDate();
+            var mes = dt.getMonth();
+            var ano = dt.getFullYear();
+
+            var horas = dt.getHours();
+            var minutos = dt.getMinutes();
+            var segundos = dt.getSeconds();
+
+            var meses= new Array("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro");
+
+            var semanas= new Array("Domingo", "Segunda - feira", "Terça - feira", "Quarta - feira", "Quinta - feira", "Sexta - feira", "Sabado");
+            
+
+            document.write(semanas[diasem] + " , " + dia + " de " + meses[mes] + " de " + ano + "<br/>");
+            document.write(horas + ":" + minutos + ":" + segundos);
+            
+            </script>
+
+</head>
+<body>
+    
+        
+    </body>
+</html>
